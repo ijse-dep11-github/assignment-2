@@ -90,3 +90,8 @@ using 'double ' as a default data type helps avoid unnecessary precision loss du
 
 while 'int' and double are the default data types, java provides support for other data types like long,float,short,byte etc.This allows developers to choose the appropriate data type based on their specific needs,ensuring flexibility and precision when required.
 The design decision to use int and double as default dta types in java was influenced  by hardware considerations,performance,simplicity and compatibility goals.
+
+
+09.
+Because these data types form a subset of the integer data types that can be safely and efficiently converted without loss of information(smaller sizes,common use cases ,efficiency considerations).
+They provide a convenient way to work with smaller integer values without the need for explicit casting in various programming scenarios.
