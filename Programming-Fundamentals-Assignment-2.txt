@@ -95,3 +95,13 @@ The design decision to use int and double as default dta types in java was influ
 09.
 Because these data types form a subset of the integer data types that can be safely and efficiently converted without loss of information(smaller sizes,common use cases ,efficiency considerations).
 They provide a convenient way to work with smaller integer values without the need for explicit casting in various programming scenarios.
+
+
+10.widening and narrowing primitive conversion		: Conversion combines both widening and narrowing primitive conversions,
+
+byte to char	:- First, the byte is converted to and int via widening primitive conversion and then the resulting int is converted to a char by narrowing primitive conversion.
+
+
+convert short to char can be done directly.(by using widening premitive conversion).
+There for conversion from short to char isn't classify as widening and narrowing primitive conversion.
+
