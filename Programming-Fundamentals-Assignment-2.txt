@@ -28,7 +28,7 @@ Case Sensitive Insensitive :
 
 03.
 Identity conversion		 : A conversion from a type to that same type is permitted for any type.
-			ex :- int x1 = 70;
+			      ex :- int x1 = 70;
 			      int x2;
 			      x1 = x2;//Identity conversion
 
