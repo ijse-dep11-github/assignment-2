@@ -84,3 +84,9 @@ Conditions for an implicit narrowing primitive conversions to occur	:
 
 07.
  
+08.Because of the balance between performance,memory usage and practicality.
+'int' is the most commonly used data type for integers and it provides a reasonable range for most integer values encountered in typical programming scenarios.
+using 'double ' as a default data type helps avoid unnecessary precision loss during calculations.
+
+while 'int' and double are the default data types, java provides support for other data types like long,float,short,byte etc.This allows developers to choose the appropriate data type based on their specific needs,ensuring flexibility and precision when required.
+The design decision to use int and double as default dta types in java was influenced  by hardware considerations,performance,simplicity and compatibility goals.
