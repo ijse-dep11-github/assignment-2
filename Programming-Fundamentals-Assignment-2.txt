@@ -72,3 +72,15 @@ final int MY_CONST_2 = 10 * (int) Math.random(); // run time constant
 
 
 06.
+Implicit narrowing primitive conversion		: Value of a smaller data type is automatically and safely promoted to a value of a larger data type without any loss of information.
+Java performs these conversions automatically and no explicit action is required from the programmer.
+
+Explicit narrowing conversions			: Value of a larger data type is explicitly cast into a value of smaller data type.
+This operation may results into a loss of information since the destination data type may not have enough capacity to represent the full range of the source data type.
+
+Conditions for an implicit narrowing primitive conversions to occur	:
+1.should be a constant
+2.The range of values that can be represented by the source data type is within the valid range of values for the destination data type.
+
+07.
+ 
