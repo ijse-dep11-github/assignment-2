@@ -20,7 +20,7 @@ Case Insensitive        : A programing language ability to ignore the differance
 			      String Name = "Nimal";
 			      name and Name are same identifiers in case insensitive languages.
 
-Case Sensitive Insensitive :
+Case Sensitive- Insensitive :
 
 
 
@@ -64,4 +64,11 @@ Primitive Widening Conversion	 :19 specific conversions on primitive types are c
 
 				       
 
-				
+05.
+A complile time constant is computed at the time the code is compiled, while a run time constant can only be computed while the appilication is running.
+
+final int MY_CONST = 10;                    // compile time constant
+final int MY_CONST_2 = 10 * (int) Math.random(); // run time constant				
+
+
+06.
