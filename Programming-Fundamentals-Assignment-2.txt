@@ -83,6 +83,8 @@ Conditions for an implicit narrowing primitive conversions to occur	:
 2.The range of values that can be represented by the source data type is within the valid range of values for the destination data type.
 
 07.
+When assign a long value to a float,jaav performs an implicit narrowing conversion.
+It discards the least significant 32 bits of the long value,and the remaining bits are used to represent the float value
  
 08.Because of the balance between performance,memory usage and practicality.
 'int' is the most commonly used data type for integers and it provides a reasonable range for most integer values encountered in typical programming scenarios.
