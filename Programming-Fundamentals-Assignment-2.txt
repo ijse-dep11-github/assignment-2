@@ -20,7 +20,7 @@ Case Insensitive        : A programing language ability to ignore the differance
 			      String Name = "Nimal";
 			      name and Name are same identifiers in case insensitive languages.
 
-Case Sensitive- Insensitive :
+Java is a case sensitive programming language.This means that java differentiate between uppercase and lowercase letters in identifiers such as variable names ,methods names,class names and keywords. 
 
 
 
